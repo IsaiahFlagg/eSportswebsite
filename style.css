@@ -78,10 +78,77 @@ button {
 h2 {
     font-size: 41px;
     font-weight: bold;
-    color: blue;
+    color: rgb(38, 38, 245);
 }
 
 h3 {
     color: gray;
     font-size: larger;
+}
+
+h6 {
+    color: gray;
+}
+
+h5 {
+    color: lightskyblue;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.schedule {
+    width: 337px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid rgb(185, 184, 184);
+    box-shadow: 0 2px 4px #E1E1E1;
+    margin-top: 100px;
+}
+
+#details {
+    border-radius: 0%;
+    border: 1px solid lightblue;
+    color: rgb(128, 199, 223);
+    box-shadow: 0 2px 4px #E1E1E1;
+    margin-bottom: 20px;
+}
+
+.fullsc {
+    max-width: 10%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.banner {
+    padding-bottom: 500px;
+    padding-top: 300px;
+}
+
+/* .esports2 {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 250px;
+} */
+
+/* #esports2id {
+    display: block;
+    position: relative;
+    height: 360px;
+    width: 100%;
+    overflow: hidden;
+} */
+
+.esports2 {
+    display: block;
+    /* position: relative; */
+    height: 360px;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 150px;
+    margin-bottom: 200px;
 }
