@@ -1,0 +1,87 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #edf0f1;
+    /* background-color: #24252a; */
+}
+
+body {
+    background-image: url('./assets/img/esports.jpg');
+    background-repeat: no-repeat /* makes background image stop at the end of the first page */
+    
+}
+
+p {
+    color: gray;
+}
+
+
+img {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* pushes first and last item far left and right and the item in the middle is going to evenly space*/
+    align-items: center; /* centers everything in the header */
+    padding: 10px 10%;
+    background-color: rgba(0, 0, 0, 0); /* sets navbar transparent */
+}
+
+.nav_links {
+    list-style: none; /* takes the bullets off of the list of items */
+}
+
+.nav_links li {
+    display: inline-block; /* puts list side by side instead of stacked */
+    padding: 0px 20px ; /* spaces list items out */
+} 
+
+.nav_links li a, .navbar-brand {
+    transition: all 0.3s ease 0s !important;
+}
+
+.nav_links li a:hover, .navbar-brand:hover {
+    color: #0088a9;
+    text-decoration: none;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0;
+    
+}
+
+#tag {
+    color: rgba(0, 136, 169, 1);;
+}
+
+#padme {
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+
+h2 {
+    font-size: 41px;
+    font-weight: bold;
+    color: blue;
+}
+
+h3 {
+    color: gray;
+    font-size: larger;
+}
